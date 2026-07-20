@@ -16,4 +16,4 @@
 
 | 파일 | 빌드 | 비고 |
 |---|---|---|
-| `stocksignal-debug.apk` | debug | 이메일(구글) 인증 사용자가 어드민 유저관리에 '익명'으로 표시되던 버그 수정(연결 후·앱 진입 시 authProvider·email 을 users 문서에 재동기화) |
+| `stocksignal-debug.apk` | debug | 5단계 초정밀 레짐-스위칭 — 홈 상단에 '시장 국면 · OO장'(강세/횡보/반등/하락/폭락) 뱃지 신설(백엔드 market_regime.stage 실시간 구독) |
