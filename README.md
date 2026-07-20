@@ -16,4 +16,4 @@
 
 | 파일 | 빌드 | 비고 |
 |---|---|---|
-| `stocksignal-debug.apk` | debug | 5단계 초정밀 레짐-스위칭 — 홈 상단에 '시장 국면 · OO장'(강세/횡보/반등/하락/폭락) 뱃지 신설(백엔드 market_regime.stage 실시간 구독) |
+| `stocksignal-debug.apk` | debug | 어드민 유저관리 '익명' 오표시 근본 수정 — 구글 연결 직후·앱 진입 시 authProvider·email 을 users 문서에 재동기화(서버측 Auth→users 백필 스케줄 병행). 이 APK로 앱을 한 번만 열면 연결 계정이 어드민에 이메일로 정상 표시됨. (직전 '5단계 레짐-스위칭 시장 국면 뱃지' 기능 포함) |
