@@ -16,4 +16,4 @@
 
 | 파일 | 빌드 | 비고 |
 |---|---|---|
-| `stocksignal-debug.apk` | debug | 인버스·리컨실(고아 편입) 종목이 앱 '성과검증'에 노출되던 문제 차단(오토트레이더 전용 presetId 필터링·기존 캐시 잔여 즉시 제거) |
+| `stocksignal-debug.apk` | debug | 이메일(구글) 인증 사용자가 어드민 유저관리에 '익명'으로 표시되던 버그 수정(연결 후·앱 진입 시 authProvider·email 을 users 문서에 재동기화) |
